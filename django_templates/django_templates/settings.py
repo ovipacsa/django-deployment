@@ -27,7 +27,7 @@ SECRET_KEY = 'x@!!l+0kl-%_krwtub&$x(e62s6i4bh18qfe)f3!d^1_06b#$j'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [ovipacsa.pythonanywhere.com,]
 
 
 # Application definition
