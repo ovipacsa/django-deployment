@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+{% extends "basicapp/base.html" %}
+  {% block body_block %}
+
+    <h1>WELCOME TO HOME PAGE</h1>
+    <h2> This is index.html page showing </h2>
+    <h2>{{ text|upper }}</h2>
+    <h3>{{ number|add:"666" }}</h3>
+    <h3>{{text2|cut:"gica"}}</h4>
+
+<div class="jumbotron">
+    <h1>SOMETING GOES HERe</h1>
+</div>
+
+    {% endblock %}
